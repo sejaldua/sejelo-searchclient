@@ -1,0 +1,26 @@
+[server][info] Running client on level: ../levels/SAFirefly.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+#Explored:   10,000, #Frontier:    2,539, #Generated:   12,539, Time: 4.157 s
+[Used: 1495.72 MB, Free: 904.28 MB, Alloc: 2400.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:    4,012, #Generated:   24,012, Time: 8.357 s
+[Used: 2634.72 MB, Free: 3187.28 MB, Alloc: 5822.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:    5,549, #Generated:   35,549, Time: 11.624 s
+[Used: 3548.72 MB, Free: 2747.28 MB, Alloc: 6296.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:    7,185, #Generated:   47,185, Time: 14.635 s
+[Used: 4338.72 MB, Free: 2337.28 MB, Alloc: 6676.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:    8,703, #Generated:   58,703, Time: 19.674 s
+[Used: 5454.72 MB, Free: 2607.28 MB, Alloc: 8062.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:   10,575, #Generated:   70,575, Time: 23.640 s
+[Used: 6517.72 MB, Free: 1674.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   70,000, #Frontier:   11,629, #Generated:   81,629, Time: 27.820 s
+[Used: 7544.72 MB, Free: 647.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+Maximum memory usage exceeded.
+Unable to solve level.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.

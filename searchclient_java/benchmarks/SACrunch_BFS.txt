@@ -1,0 +1,26 @@
+[server][info] Running client on level: ../levels/SACrunch.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+#Explored:   10,000, #Frontier:    3,189, #Generated:   13,189, Time: 3.893 s
+[Used: 1386.72 MB, Free: 3029.28 MB, Alloc: 4416.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:    4,872, #Generated:   24,872, Time: 8.150 s
+[Used: 2638.72 MB, Free: 3107.28 MB, Alloc: 5746.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:    7,927, #Generated:   37,927, Time: 11.854 s
+[Used: 3500.72 MB, Free: 2747.28 MB, Alloc: 6248.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:   11,928, #Generated:   51,928, Time: 15.410 s
+[Used: 4789.72 MB, Free: 1876.28 MB, Alloc: 6666.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:   11,325, #Generated:   61,325, Time: 20.024 s
+[Used: 6099.72 MB, Free: 2092.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:   14,307, #Generated:   74,307, Time: 23.732 s
+[Used: 6843.72 MB, Free: 1348.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   70,000, #Frontier:   17,572, #Generated:   87,572, Time: 34.701 s
+[Used: 8034.51 MB, Free: 157.49 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+Maximum memory usage exceeded.
+Unable to solve level.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.

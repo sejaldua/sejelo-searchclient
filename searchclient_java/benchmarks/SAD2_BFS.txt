@@ -1,0 +1,24 @@
+[server][info] Running client on level: ../levels/SAD2.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+#Explored:   10,000, #Frontier:    8,195, #Generated:   18,195, Time: 9.998 s
+[Used: 1706.72 MB, Free: 4637.28 MB, Alloc: 6344.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:   13,495, #Generated:   33,495, Time: 19.149 s
+[Used: 3124.72 MB, Free: 3931.28 MB, Alloc: 7056.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:   17,741, #Generated:   47,741, Time: 28.604 s
+[Used: 4761.72 MB, Free: 3218.28 MB, Alloc: 7980.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:   21,920, #Generated:   61,920, Time: 38.402 s
+[Used: 5737.72 MB, Free: 2454.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:   25,892, #Generated:   75,892, Time: 47.552 s
+[Used: 7221.72 MB, Free: 970.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:   29,108, #Generated:   89,108, Time: 67.357 s
+[Used: 8163.99 MB, Free: 28.01 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+Maximum memory usage exceeded.
+Unable to solve level.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.

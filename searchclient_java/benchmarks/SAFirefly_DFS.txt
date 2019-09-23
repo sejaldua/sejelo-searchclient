@@ -1,0 +1,23 @@
+[server][info] Running client on level: ../levels/SAFirefly.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting depth-first search.
+#Explored:   10,000, #Frontier:    4,972, #Generated:   14,972, Time: 4.284 s
+[Used: 1543.72 MB, Free: 2304.28 MB, Alloc: 3848.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:    9,563, #Generated:   29,563, Time: 7.584 s
+[Used: 3064.72 MB, Free: 3281.28 MB, Alloc: 6346.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:   14,618, #Generated:   44,618, Time: 10.677 s
+[Used: 4399.72 MB, Free: 2502.28 MB, Alloc: 6902.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:   19,095, #Generated:   59,095, Time: 13.474 s
+[Used: 5754.72 MB, Free: 1405.28 MB, Alloc: 7160.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:   23,561, #Generated:   73,561, Time: 17.699 s
+[Used: 6788.72 MB, Free: 1403.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:   27,730, #Generated:   87,730, Time: 24.060 s
+[Used: 8139.27 MB, Free: 52.73 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+Maximum memory usage exceeded.
+Unable to solve level.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.
