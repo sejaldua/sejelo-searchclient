@@ -1,0 +1,25 @@
+[server][info] Running client on level: ../levels/SAfriendofBFS.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting depth-first search.
+#Explored:   10,000, #Frontier:   20,012, #Generated:   30,012, Time: 3.774 s
+[Used: 1156.72 MB, Free: 1611.28 MB, Alloc: 2768.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:   38,986, #Generated:   58,986, Time: 7.823 s
+[Used: 2219.72 MB, Free: 2438.28 MB, Alloc: 4658.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:   59,007, #Generated:   89,007, Time: 11.601 s
+[Used: 3318.72 MB, Free: 2365.28 MB, Alloc: 5684.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:   78,299, #Generated:  118,299, Time: 15.243 s
+[Used: 4317.72 MB, Free: 1868.28 MB, Alloc: 6186.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:   97,016, #Generated:  147,016, Time: 19.730 s
+[Used: 5335.72 MB, Free: 2424.28 MB, Alloc: 7760.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:  115,519, #Generated:  175,519, Time: 24.137 s
+[Used: 6397.72 MB, Free: 1794.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   70,000, #Frontier:  134,410, #Generated:  204,410, Time: 28.762 s
+[Used: 7376.72 MB, Free: 815.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+Maximum memory usage exceeded.
+Unable to solve level.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.

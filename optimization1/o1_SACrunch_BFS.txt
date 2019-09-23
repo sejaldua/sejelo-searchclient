@@ -1,0 +1,50 @@
+[server][info] Running client on level: ../levels/SACrunch.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+#Explored:   10,000, #Frontier:    3,189, #Generated:   13,189, Time: 2.538 s
+[Used: 502.72 MB, Free: 389.28 MB, Alloc: 892.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:    4,872, #Generated:   24,872, Time: 4.853 s
+[Used: 935.72 MB, Free: 848.28 MB, Alloc: 1784.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:    7,927, #Generated:   37,927, Time: 7.372 s
+[Used: 1751.72 MB, Free: 1314.28 MB, Alloc: 3066.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:   11,928, #Generated:   51,928, Time: 9.682 s
+[Used: 1936.72 MB, Free: 2155.28 MB, Alloc: 4092.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:   11,325, #Generated:   61,325, Time: 11.847 s
+[Used: 2696.72 MB, Free: 1395.28 MB, Alloc: 4092.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:   14,307, #Generated:   74,307, Time: 14.138 s
+[Used: 3041.72 MB, Free: 1316.28 MB, Alloc: 4358.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   70,000, #Frontier:   17,572, #Generated:   87,572, Time: 16.612 s
+[Used: 3474.72 MB, Free: 1673.28 MB, Alloc: 5148.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   80,000, #Frontier:   15,314, #Generated:   95,314, Time: 18.562 s
+[Used: 3451.72 MB, Free: 2856.28 MB, Alloc: 6308.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   90,000, #Frontier:   19,162, #Generated:  109,162, Time: 20.949 s
+[Used: 4182.72 MB, Free: 2125.28 MB, Alloc: 6308.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  100,000, #Frontier:   25,063, #Generated:  125,063, Time: 23.394 s
+[Used: 4637.72 MB, Free: 3458.28 MB, Alloc: 8096.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  110,000, #Frontier:   23,159, #Generated:  133,159, Time: 25.842 s
+[Used: 4948.72 MB, Free: 3147.28 MB, Alloc: 8096.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  120,000, #Frontier:   21,252, #Generated:  141,252, Time: 27.755 s
+[Used: 5600.72 MB, Free: 2495.28 MB, Alloc: 8096.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  130,000, #Frontier:   24,479, #Generated:  154,479, Time: 29.966 s
+[Used: 5829.72 MB, Free: 2362.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  140,000, #Frontier:   31,853, #Generated:  171,853, Time: 32.253 s
+[Used: 6264.72 MB, Free: 1927.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  150,000, #Frontier:   34,080, #Generated:  184,080, Time: 34.395 s
+[Used: 6847.72 MB, Free: 1344.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  160,000, #Frontier:   32,156, #Generated:  192,156, Time: 36.529 s
+[Used: 7115.72 MB, Free: 1076.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  170,000, #Frontier:   30,158, #Generated:  200,158, Time: 38.291 s
+[Used: 7460.72 MB, Free: 731.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  180,000, #Frontier:   29,282, #Generated:  209,282, Time: 40.179 s
+[Used: 7629.72 MB, Free: 562.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  190,000, #Frontier:   35,596, #Generated:  225,596, Time: 48.133 s
+[Used: 8125.74 MB, Free: 66.26 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+Maximum memory usage exceeded.
+Unable to solve level.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.

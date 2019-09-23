@@ -1,0 +1,35 @@
+[server][info] Running client on level: ../levels/SACrunch.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting depth-first search.
+#Explored:   10,000, #Frontier:    7,136, #Generated:   17,136, Time: 2.655 s
+[Used: 747.72 MB, Free: 668.28 MB, Alloc: 1416.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:   15,568, #Generated:   35,568, Time: 5.120 s
+[Used: 1455.72 MB, Free: 1604.28 MB, Alloc: 3060.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:   24,712, #Generated:   54,712, Time: 7.813 s
+[Used: 2118.72 MB, Free: 2239.28 MB, Alloc: 4358.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:   33,865, #Generated:   73,865, Time: 10.346 s
+[Used: 2695.72 MB, Free: 2844.28 MB, Alloc: 5540.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:   41,420, #Generated:   91,420, Time: 12.757 s
+[Used: 3402.72 MB, Free: 2137.28 MB, Alloc: 5540.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:   48,756, #Generated:  108,756, Time: 15.663 s
+[Used: 4016.72 MB, Free: 2743.28 MB, Alloc: 6760.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   70,000, #Frontier:   56,184, #Generated:  126,184, Time: 17.954 s
+[Used: 4616.72 MB, Free: 2991.28 MB, Alloc: 7608.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   80,000, #Frontier:   63,645, #Generated:  143,645, Time: 21.360 s
+[Used: 5490.72 MB, Free: 2261.28 MB, Alloc: 7752.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   90,000, #Frontier:   70,983, #Generated:  160,983, Time: 24.373 s
+[Used: 5816.72 MB, Free: 2375.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  100,000, #Frontier:   77,832, #Generated:  177,832, Time: 26.756 s
+[Used: 6714.72 MB, Free: 1477.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  110,000, #Frontier:   87,195, #Generated:  197,195, Time: 29.899 s
+[Used: 7118.72 MB, Free: 1073.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  120,000, #Frontier:   93,472, #Generated:  213,472, Time: 31.986 s
+[Used: 7881.72 MB, Free: 310.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+Maximum memory usage exceeded.
+Unable to solve level.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.

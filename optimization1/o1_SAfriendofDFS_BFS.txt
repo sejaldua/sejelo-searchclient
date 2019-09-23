@@ -1,0 +1,19 @@
+[server][info] Running client on level: ../levels/SAfriendofDFS.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+#Explored:   10,000, #Frontier:   20,799, #Generated:   30,799, Time: 5.158 s
+[Used: 1384.72 MB, Free: 1095.28 MB, Alloc: 2480.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:   38,028, #Generated:   58,028, Time: 10.530 s
+[Used: 2410.72 MB, Free: 1413.28 MB, Alloc: 3824.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:   52,120, #Generated:   82,120, Time: 15.753 s
+[Used: 3095.72 MB, Free: 1804.28 MB, Alloc: 4900.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   32,682, #Frontier:   56,430, #Generated:   89,112, Time: 17.149 s
+[Used: 3307.72 MB, Free: 1724.28 MB, Alloc: 5032.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 8.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 8.
+[server][info] Last action time: 17.163 seconds.
