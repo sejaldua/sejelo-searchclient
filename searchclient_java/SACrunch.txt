@@ -1,0 +1,18 @@
+[server][info] Running client on level: ../levels/SACrunch.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+#Explored:   10,000, #Frontier:    3,189, #Generated:   13,189, Time: 4.102 s
+[Used: 1277.72 MB, Free: 1490.28 MB, Alloc: 2768.00 MB, MaxAlloc: 4096.00 MB]
+#Explored:   20,000, #Frontier:    4,872, #Generated:   24,872, Time: 9.032 s
+[Used: 2361.72 MB, Free: 816.28 MB, Alloc: 3178.00 MB, MaxAlloc: 4096.00 MB]
+#Explored:   30,000, #Frontier:    7,927, #Generated:   37,927, Time: 13.549 s
+[Used: 3516.72 MB, Free: 579.28 MB, Alloc: 4096.00 MB, MaxAlloc: 4096.00 MB]
+Maximum memory usage exceeded.
+Unable to solve level.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.

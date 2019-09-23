@@ -1,0 +1,13 @@
+[server][info] Running client on level: ../levels/SAfriendofBFS.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting depth-first search.
+#Explored:   10,000, #Frontier:   20,012, #Generated:   30,012, Time: 6.877 s
+[Used: 2850.72 MB, Free: 1204.28 MB, Alloc: 4055.00 MB, MaxAlloc: 4096.00 MB]
+Maximum memory usage exceeded.
+Unable to solve level.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.

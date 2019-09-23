@@ -107,8 +107,9 @@ public class SearchClient
 
         // End.
         // line is currently "#end".
-
-        return new State(agentRows, agentCols, agentColors, walls, boxes, boxColors, goals);
+        State.goals = goals;
+        State.walls = walls;
+        return new State(agentRows, agentCols, agentColors, boxes, boxColors);
     }
 
     /**
