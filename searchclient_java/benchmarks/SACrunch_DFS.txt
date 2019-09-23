@@ -1,0 +1,19 @@
+[server][info] Running client on level: ../levels/SACrunch.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting depth-first search.
+#Explored:   10,000, #Frontier:    7,136, #Generated:   17,136, Time: 3.975 s
+[Used: 1893.72 MB, Free: 3184.28 MB, Alloc: 5078.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:   15,568, #Generated:   35,568, Time: 7.969 s
+[Used: 3293.72 MB, Free: 3030.28 MB, Alloc: 6324.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:   24,712, #Generated:   54,712, Time: 14.464 s
+[Used: 5245.72 MB, Free: 2086.28 MB, Alloc: 7332.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:   33,865, #Generated:   73,865, Time: 19.647 s
+[Used: 6768.72 MB, Free: 1423.28 MB, Alloc: 8192.00 MB, MaxAlloc: 8192.00 MB]
+Maximum memory usage exceeded.
+Unable to solve level.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.
