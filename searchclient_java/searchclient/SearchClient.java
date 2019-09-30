@@ -25,8 +25,9 @@ public class SearchClient
 
         // Read colors.
         serverMessages.readLine(); // #colors
-        Color[] agentColors = new Color[10];
-        Color[] boxColors = new Color[26];
+
+        ArrayList<Color> agentColors = new ArrayList<Color>();
+        ArrayList<Color> boxColors = new ArrayList<Color>();
         String line = serverMessages.readLine();
         while (!line.startsWith("#"))
         {
@@ -38,11 +39,11 @@ public class SearchClient
                 char c = entity.strip().charAt(0);
                 if ('0' <= c && c <= '9')
                 {
-                    agentColors[c - '0'] = color;
+                    agentColors.add(color);
                 }
                 else if ('A' <= c && c <= 'Z')
                 {
-                    boxColors[c - 'A'] = color;
+                    boxColors.add(color);
                 }
             }
             line = serverMessages.readLine();

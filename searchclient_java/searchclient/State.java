@@ -16,7 +16,7 @@ public class State
     */
     public int[] agentRows;
     public int[] agentCols;
-    public Color[] agentColors;
+    public ArrayList<Color> agentColors;
 
     /*
         The walls, boxes, and goals arrays are indexed from the top-left of the level, row-major order (row, col).
@@ -31,7 +31,7 @@ public class State
     */
     public static boolean[][] walls;
     public char[][] boxes;
-    public Color[] boxColors;
+    public ArrayList<Color> boxColors;
     public static char[][] goals;
 
     public final State parent;
@@ -44,8 +44,8 @@ public class State
      * Constructs an initial state.
      * Arguments are not copied, and therefore should not be modified after being passed in.
      */
-    public State(int[] agentRows, int[] agentCols, Color[] agentColors,
-                 char[][] boxes, Color[] boxColors
+    public State(int[] agentRows, int[] agentCols, ArrayList<Color> agentColors,
+                 char[][] boxes, ArrayList<Color> boxColors
     )
     {
         this.agentRows = agentRows;
@@ -67,7 +67,7 @@ public class State
         // Copy parent.
         this.agentRows = Arrays.copyOf(parent.agentRows, parent.agentRows.length);
         this.agentCols = Arrays.copyOf(parent.agentCols, parent.agentCols.length);
-        this.agentColors = Arrays.copyOf(parent.agentColors, parent.agentColors.length);
+        this.agentColors = (ArrayList<Color>)(parent.agentColors);
         //this.walls = new boolean[parent.walls.length][];
         //for (int i = 0; i < parent.walls.length; i++)
         //{
@@ -78,7 +78,8 @@ public class State
         {
             this.boxes[i] = Arrays.copyOf(parent.boxes[i], parent.boxes[i].length);
         }
-        this.boxColors = Arrays.copyOf(parent.boxColors, parent.boxColors.length);
+        this.boxColors = new ArrayList<Color>(parent.boxColors);
+
         //this.goals = new char[parent.goals.length][];
         //for (int i = 0; i < parent.goals.length; i++)
         //{
@@ -223,7 +224,7 @@ public class State
     {
         int agentRow = this.agentRows[agent];
         int agentCol = this.agentCols[agent];
-        Color agentColor = this.agentColors[agent];
+        Color agentColor = this.agentColors.get(agent);
         int boxRow;
         int boxCol;
         char box;
@@ -243,7 +244,7 @@ public class State
                 boxRow = agentRow + action.agentRowDelta;
                 boxCol = agentCol + action.agentColDelta;
                 box = this.boxes[boxRow][boxCol];
-                if (box == 0 || agentColor != this.boxColors[box - 'A'])
+                if (box == 0 || agentColor != this.boxColors.get(box - 'A'))
                 {
                     return false;
                 }
@@ -255,7 +256,7 @@ public class State
                 boxRow = agentRow + action.boxRowDelta;
                 boxCol = agentCol + action.boxColDelta;
                 box = this.boxes[boxRow][boxCol];
-                if (box == 0 || agentColor != this.boxColors[box - 'A'])
+                if (box == 0 || agentColor != this.boxColors.get(box - 'A'))
                 {
                     return false;
                 }
@@ -387,10 +388,10 @@ public class State
             int result = 1;
             result = prime * result + Arrays.hashCode(this.agentRows);
             result = prime * result + Arrays.hashCode(this.agentCols);
-            result = prime * result + Arrays.hashCode(this.agentColors);
+            result = prime * result + this.agentColors.hashCode();
             result = prime * result + Arrays.deepHashCode(walls);
             result = prime * result + Arrays.deepHashCode(this.boxes);
-            result = prime * result + Arrays.hashCode(this.boxColors);
+            result = prime * result + this.boxColors.hashCode();
             result = prime * result + Arrays.deepHashCode(goals);
             this._hash = result;
         }
@@ -415,9 +416,9 @@ public class State
         State other = (State) obj;
         return Arrays.equals(this.agentRows, other.agentRows) &&
                Arrays.equals(this.agentCols, other.agentCols) &&
-               Arrays.equals(this.agentColors, other.agentColors) &&
+               this.agentColors.equals(other.agentColors) &&
                Arrays.deepEquals(this.boxes, other.boxes) &&
-               Arrays.equals(this.boxColors, other.boxColors);
+               this.boxColors.equals(other.boxColors);
     }
 
     @Override
