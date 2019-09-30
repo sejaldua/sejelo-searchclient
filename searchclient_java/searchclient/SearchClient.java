@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Locale;
 
@@ -52,13 +53,18 @@ public class SearchClient
         int numAgents = 0;
         int[] agentRows = new int[10];
         int[] agentCols = new int[10];
-        boolean[][] walls = new boolean[130][130];
-        char[][] boxes = new char[130][130];
+
+        ArrayList<boolean[]> wallsList = new ArrayList<boolean[]>();
+        ArrayList<char[]> boxesList = new ArrayList<char[]>();
+
         line = serverMessages.readLine();
         int row = 0;
         while (!line.startsWith("#"))
         {
-            for (int col = 0; col < line.length(); ++col)
+            boolean[] wallRow = new boolean[line.length()];
+            char[] boxRow = new char[line.length()];
+
+           for (int col = 0; col < line.length(); ++col)
             {
                 char c = line.charAt(col);
 
@@ -70,23 +76,37 @@ public class SearchClient
                 }
                 else if ('A' <= c && c <= 'Z')
                 {
-                    boxes[row][col] = c;
+                    boxRow[col] = c;
                 }
                 else if (c == '+')
                 {
-                    walls[row][col] = true;
+                    wallRow[col] = true;
                 }
             }
 
             ++row;
+            wallsList.add(wallRow);
+            boxesList.add(boxRow);
             line = serverMessages.readLine();
         }
         agentRows = Arrays.copyOf(agentRows, numAgents);
         agentCols = Arrays.copyOf(agentCols, numAgents);
 
+        boolean[][] walls = new boolean[wallsList.size()][wallsList.get(0).length];
+        char[][] boxes = new char[boxesList.size()][boxesList.get(0).length];
+
+        for (row = 0; row < wallsList.size(); ++row)
+        {
+           for (int col = 0; col < wallsList.get(0).length; ++col)
+            {
+                boxes[row][col] = boxesList.get(row)[col];
+                walls[row][col] = wallsList.get(row)[col];
+            }
+        }
+
         // Read goal state.
         // line is currently "#goal".
-        char[][] goals = new char[130][130];
+        char[][] goals = new char[wallsList.size()][wallsList.get(0).length];
         line = serverMessages.readLine();
         row = 0;
         while (!line.startsWith("#"))
