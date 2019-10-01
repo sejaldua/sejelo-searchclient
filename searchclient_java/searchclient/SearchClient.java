@@ -57,6 +57,7 @@ public class SearchClient
 
         ArrayList<boolean[]> wallsList = new ArrayList<boolean[]>();
         ArrayList<char[]> boxesList = new ArrayList<char[]>();
+        int maxWidth = 0;
 
         line = serverMessages.readLine();
         int row = 0;
@@ -64,6 +65,10 @@ public class SearchClient
         {
             boolean[] wallRow = new boolean[line.length()];
             char[] boxRow = new char[line.length()];
+
+            if (line.length() > maxWidth) {
+              maxWidth = line.length();
+            }
 
            for (int col = 0; col < line.length(); ++col)
             {
@@ -93,12 +98,12 @@ public class SearchClient
         agentRows = Arrays.copyOf(agentRows, numAgents);
         agentCols = Arrays.copyOf(agentCols, numAgents);
 
-        boolean[][] walls = new boolean[wallsList.size()][wallsList.get(0).length];
-        char[][] boxes = new char[boxesList.size()][boxesList.get(0).length];
+        boolean[][] walls = new boolean[wallsList.size()][maxWidth];
+        char[][] boxes = new char[boxesList.size()][maxWidth];
 
         for (row = 0; row < wallsList.size(); ++row)
         {
-           for (int col = 0; col < wallsList.get(0).length; ++col)
+           for (int col = 0; col < wallsList.get(row).length; ++col)
             {
                 boxes[row][col] = boxesList.get(row)[col];
                 walls[row][col] = wallsList.get(row)[col];
@@ -107,7 +112,7 @@ public class SearchClient
 
         // Read goal state.
         // line is currently "#goal".
-        char[][] goals = new char[wallsList.size()][wallsList.get(0).length];
+        char[][] goals = new char[wallsList.size()][maxWidth];
         line = serverMessages.readLine();
         row = 0;
         while (!line.startsWith("#"))
