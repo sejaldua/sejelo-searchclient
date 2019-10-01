@@ -1,0 +1,16 @@
+[server][info] Running client on level: ../levels/SAfriendofDFS.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6
+	at searchclient.State.cellIsFree(State.java:355)
+	at searchclient.State.isApplicable(State.java:253)
+	at searchclient.State.getExpandedStates(State.java:169)
+	at searchclient.SearchClient.search(SearchClient.java:172)
+	at searchclient.SearchClient.main(SearchClient.java:258)
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.
