@@ -2,14 +2,11 @@
 SearchClient initializing. I am sending this using the error output stream.
 [client][message] This is a comment.
 Starting depth-first search.
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6
-	at searchclient.State.cellIsFree(State.java:355)
-	at searchclient.State.isApplicable(State.java:253)
-	at searchclient.State.getExpandedStates(State.java:169)
-	at searchclient.SearchClient.search(SearchClient.java:172)
-	at searchclient.SearchClient.main(SearchClient.java:258)
+#Explored:       60, #Frontier:      245, #Generated:      305, Time: 0.031 s
+[Used: 3.72 MB, Free: 256.28 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 60.
 [client][info] Waiting for client process to terminate by itself.
 [client][info] Client terminated.
-[server][info] Level solved: No.
-[server][info] Actions used: 0.
-[server][info] Last action time: 0.000 seconds.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 60.
+[server][info] Last action time: 0.055 seconds.

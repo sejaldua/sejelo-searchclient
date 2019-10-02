@@ -1,0 +1,12 @@
+[server][info] Running client on level: ../levels/SAlabyrinth.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting depth-first search.
+#Explored:    1,066, #Frontier:       16, #Generated:    1,082, Time: 0.144 s
+[Used: 17.97 MB, Free: 242.03 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 676.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 676.
+[server][info] Last action time: 0.250 seconds.

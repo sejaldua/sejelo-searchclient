@@ -1,0 +1,12 @@
+[server][info] Running client on level: ../levels/SAlabyrinthOfStBertin.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting depth-first search.
+#Explored:    1,148, #Frontier:        2, #Generated:    1,150, Time: 0.122 s
+[Used: 10.78 MB, Free: 249.22 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 1110.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 1110.
+[server][info] Last action time: 0.251 seconds.

@@ -1,0 +1,33 @@
+[server][info] Running client on level: ../levels/SAsoko2_32.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+#Explored:   10,000, #Frontier:    2,470, #Generated:   12,470, Time: 0.565 s
+[Used: 53.70 MB, Free: 206.30 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:    4,024, #Generated:   24,024, Time: 0.904 s
+[Used: 99.83 MB, Free: 214.17 MB, Alloc: 314.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:    5,432, #Generated:   35,432, Time: 1.221 s
+[Used: 147.72 MB, Free: 294.28 MB, Alloc: 442.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:    6,710, #Generated:   46,710, Time: 1.544 s
+[Used: 228.72 MB, Free: 213.28 MB, Alloc: 442.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:    7,980, #Generated:   57,980, Time: 1.828 s
+[Used: 228.72 MB, Free: 213.28 MB, Alloc: 442.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:    9,048, #Generated:   69,048, Time: 2.181 s
+[Used: 317.72 MB, Free: 566.28 MB, Alloc: 884.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   70,000, #Frontier:   10,103, #Generated:   80,103, Time: 2.628 s
+[Used: 312.72 MB, Free: 571.28 MB, Alloc: 884.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   80,000, #Frontier:   11,141, #Generated:   91,141, Time: 2.909 s
+[Used: 481.72 MB, Free: 402.28 MB, Alloc: 884.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   90,000, #Frontier:   12,186, #Generated:  102,186, Time: 3.236 s
+[Used: 461.72 MB, Free: 422.28 MB, Alloc: 884.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  100,000, #Frontier:   13,233, #Generated:  113,233, Time: 3.553 s
+[Used: 439.72 MB, Free: 444.28 MB, Alloc: 884.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  104,572, #Frontier:   13,521, #Generated:  118,093, Time: 3.686 s
+[Used: 515.72 MB, Free: 368.28 MB, Alloc: 884.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 30.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 30.
+[server][info] Last action time: 3.697 seconds.

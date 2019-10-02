@@ -1,0 +1,13 @@
+[server][info] Running client on level: ../levels/SAlabyrinth.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+#Explored:    1,749, #Frontier:        4, #Generated:    1,753, Time: 0.213 s
+[Used: 20.11 MB, Free: 239.89 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 676.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 676.
+[server][info] Last action time: 0.384 seconds.
