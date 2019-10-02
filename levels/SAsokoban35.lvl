@@ -1,0 +1,21 @@
+#domain
+hospital
+#levelname
+SAsokoban35
+#colors
+blue: 0, A, B, C
+#initial
+++++++
++0 A +++
++ +    +
++ BC + +
++      +
+++++++++
+#goal
+++++++
++0 A +++
++ +    +
++B  C+ +
++      +
+++++++++
+#end
