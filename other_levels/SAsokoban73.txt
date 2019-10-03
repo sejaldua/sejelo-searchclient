@@ -1,0 +1,39 @@
+[server][info] Running client on level: ../levels/SAsokoban73.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+#Explored:   10,000, #Frontier:    1,745, #Generated:   11,745, Time: 0.187 s
+[Used: 19.89 MB, Free: 240.11 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:    1,852, #Generated:   21,852, Time: 0.318 s
+[Used: 28.15 MB, Free: 231.85 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:    1,418, #Generated:   31,418, Time: 0.427 s
+[Used: 24.11 MB, Free: 235.89 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:    1,740, #Generated:   41,740, Time: 0.569 s
+[Used: 27.91 MB, Free: 284.09 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:    2,973, #Generated:   52,973, Time: 0.696 s
+[Used: 53.58 MB, Free: 258.42 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:    3,403, #Generated:   63,403, Time: 0.813 s
+[Used: 46.77 MB, Free: 265.23 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   70,000, #Frontier:    4,389, #Generated:   74,389, Time: 0.914 s
+[Used: 71.78 MB, Free: 240.22 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   80,000, #Frontier:    4,928, #Generated:   84,928, Time: 1.058 s
+[Used: 59.42 MB, Free: 252.58 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   90,000, #Frontier:    4,925, #Generated:   94,925, Time: 1.182 s
+[Used: 83.42 MB, Free: 228.58 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  100,000, #Frontier:    4,655, #Generated:  104,655, Time: 1.365 s
+[Used: 67.15 MB, Free: 244.85 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  110,000, #Frontier:    4,068, #Generated:  114,068, Time: 1.494 s
+[Used: 91.15 MB, Free: 220.85 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  120,000, #Frontier:    2,880, #Generated:  122,880, Time: 1.645 s
+[Used: 115.15 MB, Free: 196.85 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  130,000, #Frontier:    1,134, #Generated:  131,134, Time: 1.823 s
+[Used: 85.88 MB, Free: 480.12 MB, Alloc: 566.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  132,925, #Frontier:      378, #Generated:  133,303, Time: 1.880 s
+[Used: 91.88 MB, Free: 474.12 MB, Alloc: 566.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 70.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 70.
+[server][info] Last action time: 1.898 seconds.
