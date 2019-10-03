@@ -29,9 +29,11 @@ public class State
         For example, this.walls[2] is an array of booleans for the third row.
         this.walls[row][col] is true if there's a wall at (row, col).
     */
-    public static boolean[][] walls;
+  
     public char[][] boxes;
     public ArrayList<Color> boxColors;
+    
+    public static boolean[][] walls;
     public static char[][] goals;
 
     public final State parent;

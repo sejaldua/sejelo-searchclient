@@ -1,0 +1,17 @@
+[server][info] Running client on level: ../levels/SAsokoban05.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
+Starting breadth-first search.
+#Explored:   10,000, #Frontier:    1,384, #Generated:   11,384, Time: 0.209 s
+[Used: 16.54 MB, Free: 243.46 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:      819, #Generated:   20,819, Time: 0.414 s
+[Used: 24.06 MB, Free: 235.94 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   22,328, #Frontier:      390, #Generated:   22,718, Time: 0.461 s
+[Used: 29.66 MB, Free: 230.34 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 37.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 37.
+[server][info] Last action time: 0.476 seconds.

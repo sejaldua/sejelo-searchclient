@@ -3,13 +3,11 @@ SearchClient initializing. I am sending this using the error output stream.
 [client][message] This is a comment.
 Defaulting to BFS search. Use arguments -bfs, -dfs, -astar, -wastar, or -greedy to set the search strategy.
 Starting breadth-first search.
-#Explored:   10,000, #Frontier:    5,047, #Generated:   15,047, Time: 0.352 s
-[Used: 19.22 MB, Free: 240.78 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   12,271, #Frontier:    4,745, #Generated:   17,016, Time: 0.429 s
-[Used: 11.63 MB, Free: 248.37 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
-Found solution of length 8.
+#Explored:    6,138, #Frontier:      864, #Generated:    7,002, Time: 0.149 s
+[Used: 7.53 MB, Free: 252.47 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 17.
 [client][info] Waiting for client process to terminate by itself.
 [client][info] Client terminated.
 [server][info] Level solved: Yes.
-[server][info] Actions used: 8.
-[server][info] Last action time: 0.437 seconds.
+[server][info] Actions used: 17.
+[server][info] Last action time: 0.164 seconds.
