@@ -2,17 +2,56 @@ package searchclient;
 
 import java.util.Comparator;
 
+import java.util.Map;
+import java.util.HashMap;
+import java.lang.Math;
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Heuristic
         implements Comparator<State>
 {
+    private final char[][] goals;
+
     public Heuristic(State initialState)
     {
-        // Here's a chance to pre-process the static parts of the level.
-    }
+        this.goals = initialState.goals;
 
+    }
+// goals and boxes
     public int h(State n)
     {
-        throw new NotImplementedException();
+        char[][] boxes = n.boxes;
+
+        Map<Character, Integer> boxX = new HashMap<Character, Integer>();
+        Map<Character, Integer> boxY = new HashMap<Character, Integer>();
+        Map<Character, Integer> goalX = new HashMap<Character, Integer>();
+        Map<Character, Integer> goalY = new HashMap<Character, Integer>();
+
+        int i, j;
+        for (i = 0; i < this.goals.length; ++i) {
+            for (j = 0; j < this.goals[i].length; ++j) {
+                if ('A' <= boxes[i][j] && 'Z' <= boxes[i][j]) {
+                    boxX.put(boxes[i][j], j);
+                    boxY.put(boxes[i][j], i);
+                }
+                if ('A' <= this.goals[i][j] && 'Z' <= this.goals[i][j]) {
+                    goalX.put(this.goals[i][j], j);
+                    goalY.put(this.goals[i][j], i);                }
+            }
+        }
+
+        int manhattanDistance = 0;
+        List<Character> keys = new ArrayList<Character>(boxX.keySet());
+        int xDist, yDist;
+        for (i = 0; i < keys.size(); ++i) {
+            xDist = boxX.get(keys.get(i)) - goalX.get(keys.get(i));
+            yDist = boxY.get(keys.get(i)) - goalY.get(keys.get(i));
+
+            manhattanDistance += Math.abs(xDist) + Math.abs(yDist);
+        }
+
+        return manhattanDistance;
     }
 
     public abstract int f(State n);

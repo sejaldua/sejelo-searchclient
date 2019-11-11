@@ -1,0 +1,12 @@
+[server][info] Running client on level: ../levels/SAfriendofBFS.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting best-first search using A* evaluation.
+#Explored:      117, #Frontier:      487, #Generated:      604, Time: 0.049 s
+[Used: 5.12 MB, Free: 254.88 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 3.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 3.
+[server][info] Last action time: 0.063 seconds.
