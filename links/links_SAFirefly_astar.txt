@@ -1,0 +1,20 @@
+[server][info] Running client on level: ../levels/SAFirefly.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting best-first search using A* evaluation.
+#Explored:   10,000, #Frontier:    3,201, #Generated:   13,201, Time: 2.515 s
+[Used: 31.91 MB, Free: 228.09 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:    4,988, #Generated:   24,988, Time: 3.609 s
+[Used: 115.65 MB, Free: 144.35 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:    6,156, #Generated:   36,156, Time: 4.308 s
+[Used: 141.09 MB, Free: 118.91 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:    7,386, #Generated:   47,386, Time: 5.010 s
+[Used: 119.50 MB, Free: 192.50 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   41,482, #Frontier:    7,624, #Generated:   49,106, Time: 5.085 s
+[Used: 162.50 MB, Free: 149.50 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 62.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 62.
+[server][info] Last action time: 5.127 seconds.

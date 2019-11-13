@@ -2,32 +2,39 @@
 SearchClient initializing. I am sending this using the error output stream.
 [client][message] This is a comment.
 Starting best-first search using greedy evaluation.
-#Explored:   10,000, #Frontier:    8,612, #Generated:   18,612, Time: 0.812 s
-[Used: 13.18 MB, Free: 112.82 MB, Alloc: 126.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   20,000, #Frontier:   19,559, #Generated:   39,559, Time: 1.023 s
-[Used: 33.69 MB, Free: 92.31 MB, Alloc: 126.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   30,000, #Frontier:   26,428, #Generated:   56,428, Time: 1.134 s
-[Used: 54.33 MB, Free: 189.67 MB, Alloc: 244.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   40,000, #Frontier:   34,247, #Generated:   74,247, Time: 1.279 s
-[Used: 66.81 MB, Free: 177.19 MB, Alloc: 244.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   50,000, #Frontier:   42,651, #Generated:   92,651, Time: 1.443 s
-[Used: 74.61 MB, Free: 169.39 MB, Alloc: 244.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   60,000, #Frontier:   52,872, #Generated:  112,872, Time: 1.580 s
-[Used: 77.60 MB, Free: 166.40 MB, Alloc: 244.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   70,000, #Frontier:   61,103, #Generated:  131,103, Time: 1.722 s
-[Used: 76.73 MB, Free: 425.27 MB, Alloc: 502.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   80,000, #Frontier:   68,783, #Generated:  148,783, Time: 1.825 s
-[Used: 110.73 MB, Free: 391.27 MB, Alloc: 502.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   90,000, #Frontier:   78,537, #Generated:  168,537, Time: 1.981 s
-[Used: 97.73 MB, Free: 404.27 MB, Alloc: 502.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:  100,000, #Frontier:   86,998, #Generated:  186,998, Time: 2.066 s
-[Used: 133.73 MB, Free: 368.27 MB, Alloc: 502.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:  110,000, #Frontier:   96,009, #Generated:  206,009, Time: 2.157 s
-[Used: 168.73 MB, Free: 333.27 MB, Alloc: 502.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:  120,000, #Frontier:  103,106, #Generated:  223,106, Time: 2.353 s
-[Used: 147.49 MB, Free: 354.51 MB, Alloc: 502.00 MB, MaxAlloc: 8192.00 MB]
-[client][info] Client timed out.
-[client][info] Sending termination signal to client process (PID = 10523).
-[server][info] Level solved: No.
-[server][info] Actions used: 0.
-[server][info] Last action time: 0.000 seconds.
+#Explored:   10,000, #Frontier:    1,588, #Generated:   11,588, Time: 1.353 s
+[Used: 134.87 MB, Free: 125.13 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:    3,400, #Generated:   23,400, Time: 1.810 s
+[Used: 111.99 MB, Free: 148.01 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:    4,203, #Generated:   34,203, Time: 2.005 s
+[Used: 71.85 MB, Free: 188.15 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:    5,250, #Generated:   45,250, Time: 2.496 s
+[Used: 77.95 MB, Free: 234.05 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:    6,002, #Generated:   56,002, Time: 3.023 s
+[Used: 154.94 MB, Free: 233.06 MB, Alloc: 388.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:    8,904, #Generated:   68,904, Time: 3.427 s
+[Used: 116.88 MB, Free: 271.12 MB, Alloc: 388.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   70,000, #Frontier:   10,534, #Generated:   80,534, Time: 3.762 s
+[Used: 63.16 MB, Free: 632.84 MB, Alloc: 696.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   80,000, #Frontier:   12,706, #Generated:   92,706, Time: 4.278 s
+[Used: 415.16 MB, Free: 280.84 MB, Alloc: 696.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   90,000, #Frontier:   13,183, #Generated:  103,183, Time: 4.576 s
+[Used: 359.79 MB, Free: 336.21 MB, Alloc: 696.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  100,000, #Frontier:   15,776, #Generated:  115,776, Time: 5.053 s
+[Used: 409.16 MB, Free: 286.84 MB, Alloc: 696.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  110,000, #Frontier:   17,372, #Generated:  127,372, Time: 5.393 s
+[Used: 398.21 MB, Free: 297.79 MB, Alloc: 696.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  120,000, #Frontier:   18,847, #Generated:  138,847, Time: 6.164 s
+[Used: 527.48 MB, Free: 864.52 MB, Alloc: 1392.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  130,000, #Frontier:   21,804, #Generated:  151,804, Time: 6.948 s
+[Used: 200.48 MB, Free: 1191.52 MB, Alloc: 1392.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  140,000, #Frontier:   22,077, #Generated:  162,077, Time: 7.406 s
+[Used: 401.48 MB, Free: 990.52 MB, Alloc: 1392.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  144,148, #Frontier:   22,199, #Generated:  166,347, Time: 7.714 s
+[Used: 554.48 MB, Free: 837.52 MB, Alloc: 1392.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 140.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 140.
+[server][info] Last action time: 8.013 seconds.

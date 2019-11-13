@@ -2,11 +2,11 @@
 SearchClient initializing. I am sending this using the error output stream.
 [client][message] This is a comment.
 Starting best-first search using A* evaluation.
-#Explored:       77, #Frontier:        1, #Generated:       78, Time: 0.037 s
-[Used: 4.00 MB, Free: 256.00 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:       55, #Frontier:       20, #Generated:       75, Time: 0.039 s
+[Used: 3.65 MB, Free: 256.35 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
 Found solution of length 19.
 [client][info] Waiting for client process to terminate by itself.
 [client][info] Client terminated.
 [server][info] Level solved: Yes.
 [server][info] Actions used: 19.
-[server][info] Last action time: 0.074 seconds.
+[server][info] Last action time: 0.055 seconds.
