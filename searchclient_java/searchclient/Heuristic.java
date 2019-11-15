@@ -12,7 +12,7 @@ import java.util.Arrays;
 public abstract class Heuristic
         implements Comparator<State>
 {
-    // heuristic 4 - distance maps
+    //heuristic 4 - distance maps
 
     // Class to hold location coordinates (x, y)
     public static class Pair {
@@ -195,24 +195,24 @@ public abstract class Heuristic
         return distanceTotal;
     }
 
-    // ---------- FIXED AGENT POSITION SCORE | HEURISTIC #3 ----------------
-    // Class to hold location coordinates (x, y)
+    // // ---------- FIXED AGENT POSITION SCORE | HEURISTIC #3 ----------------
+    // //Class to hold location coordinates (x, y)
     // public static class Pair {
     //     public final int x;
     //     public final int y;
-    //
+    
     //     public Pair(int x, int y) {
     //         this.x = x;
     //         this.y = y;
     //     }
     // }
-    //
+    
     // private Map<Character, List<Pair>> goals;
-    //
+    
     // public Heuristic(State initialState)
     // {
     //     this.goals = new HashMap<Character, List<Pair>>();
-    //
+    
     //     int x, y;
     //     char id;
     //     for (y = 0; y < initialState.goals.length; ++y) {
@@ -227,15 +227,15 @@ public abstract class Heuristic
     //         }
     //     }
     // }
-    //
+    
     // private int manhattanDistance(Pair p1, Pair p2) {
     //     return Math.abs(p1.x - p2.x) + Math.abs(p1.y - p2.y);
     // }
-    //
+    
     // public int h(State n)
     // {
     //     Map<Character, List<Pair>> boxes = new HashMap<Character, List<Pair>>();
-    //
+    
     //     // Creates a dictionary with values being lists of coord pairs for every
     //     //  box of the same label
     //     int x, y;
@@ -251,7 +251,7 @@ public abstract class Heuristic
     //             }
     //         }
     //     }
-    //
+    
     //     int i, j, k, minDistBoxIndex, minDist, dist;
     //     int manhattanTotal = 0;
     //     Pair goalPair;
@@ -286,19 +286,19 @@ public abstract class Heuristic
     //                     }
     //                 }
     //             }
-    //
+    
     //             manhattanTotal += minDist;
     //             // We remove the box that was just used since it is already linked to a goal
     //             boxes.get(keys.get(i)).remove(minDistBoxIndex);
     //         }
     //     }
-    //
+    
     //     // Loop through every agent
     //     for (i = 0; i < n.agentCols.length; ++i) {
     //         Pair agentPair = new Pair(n.agentCols[i], n.agentRows[i]);
     //         manhattanTotal += manhattanDistance(agentPair, minDistTotalPair);
     //     }
-    //
+    
     //     return manhattanTotal;
     // }
 

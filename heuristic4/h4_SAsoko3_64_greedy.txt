@@ -1,0 +1,10 @@
+[server][info] Running client on level: ../levels/SAsoko3_64.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+[client][info] Client timed out.
+[client][info] Sending termination signal to client process (PID = 58979).
+[client][info] Forcibly terminating client process.
+[client][warning] Client process not terminated. PID = 58979.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.

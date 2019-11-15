@@ -1,0 +1,12 @@
+[server][info] Running client on level: ../levels/SAD2.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting best-first search using A* evaluation.
+#Explored:    8,220, #Frontier:   11,193, #Generated:   19,413, Time: 1.681 s
+[Used: 57.85 MB, Free: 202.15 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 19.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 19.
+[server][info] Last action time: 1.705 seconds.

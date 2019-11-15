@@ -1,0 +1,12 @@
+[server][info] Running client on level: ../levels/SAsoko1_64.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting best-first search using greedy evaluation.
+#Explored:       62, #Frontier:       61, #Generated:      123, Time: 0.039 s
+[Used: 5.37 MB, Free: 254.63 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 62.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 62.
+[server][info] Last action time: 0.067 seconds.
