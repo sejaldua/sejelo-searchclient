@@ -46,12 +46,17 @@ public abstract class Heuristic
         frontier.add(start);
         int currentDist = 0;
         int i;
+
         while (!frontier.isEmpty()) {
             nextFrontier = new ArrayList<Pair>();
             for (i = 0; i < frontier.size(); ++i) {
                 x = frontier.get(i).x;
                 y = frontier.get(i).y;
                 // check north
+                if ((x == 0 || y == 0) || (x == width - 1 || y == height - 1)) {
+                  continue;
+                }
+                //System.out.println(checked[y - 1][x]);
                 if (!checked[y + 1][x]) {
                     nextFrontier.add(new Pair(x, y + 1));
                 }
@@ -200,19 +205,19 @@ public abstract class Heuristic
     // public static class Pair {
     //     public final int x;
     //     public final int y;
-    
+
     //     public Pair(int x, int y) {
     //         this.x = x;
     //         this.y = y;
     //     }
     // }
-    
+
     // private Map<Character, List<Pair>> goals;
-    
+
     // public Heuristic(State initialState)
     // {
     //     this.goals = new HashMap<Character, List<Pair>>();
-    
+
     //     int x, y;
     //     char id;
     //     for (y = 0; y < initialState.goals.length; ++y) {
@@ -227,15 +232,15 @@ public abstract class Heuristic
     //         }
     //     }
     // }
-    
+
     // private int manhattanDistance(Pair p1, Pair p2) {
     //     return Math.abs(p1.x - p2.x) + Math.abs(p1.y - p2.y);
     // }
-    
+
     // public int h(State n)
     // {
     //     Map<Character, List<Pair>> boxes = new HashMap<Character, List<Pair>>();
-    
+
     //     // Creates a dictionary with values being lists of coord pairs for every
     //     //  box of the same label
     //     int x, y;
@@ -251,7 +256,7 @@ public abstract class Heuristic
     //             }
     //         }
     //     }
-    
+
     //     int i, j, k, minDistBoxIndex, minDist, dist;
     //     int manhattanTotal = 0;
     //     Pair goalPair;
@@ -286,19 +291,19 @@ public abstract class Heuristic
     //                     }
     //                 }
     //             }
-    
+
     //             manhattanTotal += minDist;
     //             // We remove the box that was just used since it is already linked to a goal
     //             boxes.get(keys.get(i)).remove(minDistBoxIndex);
     //         }
     //     }
-    
+
     //     // Loop through every agent
     //     for (i = 0; i < n.agentCols.length; ++i) {
     //         Pair agentPair = new Pair(n.agentCols[i], n.agentRows[i]);
     //         manhattanTotal += manhattanDistance(agentPair, minDistTotalPair);
     //     }
-    
+
     //     return manhattanTotal;
     // }
 

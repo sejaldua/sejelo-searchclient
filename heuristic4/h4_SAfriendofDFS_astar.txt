@@ -1,13 +1,12 @@
 [server][info] Running client on level: ../levels/SAfriendofDFS.lvl
 SearchClient initializing. I am sending this using the error output stream.
 [client][message] This is a comment.
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 7
-	at searchclient.Heuristic.createDistanceMap(Heuristic.java:59)
-	at searchclient.Heuristic.<init>(Heuristic.java:104)
-	at searchclient.HeuristicAStar.<init>(Heuristic.java:468)
-	at searchclient.SearchClient.main(SearchClient.java:226)
+Starting best-first search using A* evaluation.
+#Explored:      360, #Frontier:    1,590, #Generated:    1,950, Time: 0.592 s
+[Used: 13.16 MB, Free: 112.84 MB, Alloc: 126.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 8.
 [client][info] Waiting for client process to terminate by itself.
 [client][info] Client terminated.
-[server][info] Level solved: No.
-[server][info] Actions used: 0.
-[server][info] Last action time: 0.000 seconds.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 8.
+[server][info] Last action time: 0.610 seconds.
