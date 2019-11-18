@@ -1,0 +1,154 @@
+[server][info] Running client on level: ../levels/SAsoko3_08.lvl
+SearchClient initializing. I am sending this using the error output stream.
+[client][message] This is a comment.
+Starting best-first search using greedy evaluation.
+#Explored:   10,000, #Frontier:   12,553, #Generated:   22,553, Time: 1.845 s
+[Used: 149.41 MB, Free: 110.59 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:   24,666, #Generated:   44,666, Time: 2.937 s
+[Used: 180.18 MB, Free: 131.82 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   30,000, #Frontier:   38,955, #Generated:   68,955, Time: 4.160 s
+[Used: 137.11 MB, Free: 252.89 MB, Alloc: 390.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   40,000, #Frontier:   51,555, #Generated:   91,555, Time: 5.468 s
+[Used: 102.68 MB, Free: 457.32 MB, Alloc: 560.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   50,000, #Frontier:   62,430, #Generated:  112,430, Time: 6.648 s
+[Used: 164.80 MB, Free: 395.20 MB, Alloc: 560.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   60,000, #Frontier:   78,923, #Generated:  138,923, Time: 8.128 s
+[Used: 148.54 MB, Free: 771.46 MB, Alloc: 920.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   70,000, #Frontier:   93,309, #Generated:  163,309, Time: 9.585 s
+[Used: 427.49 MB, Free: 492.51 MB, Alloc: 920.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   80,000, #Frontier:  107,095, #Generated:  187,095, Time: 11.817 s
+[Used: 202.78 MB, Free: 1243.22 MB, Alloc: 1446.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   90,000, #Frontier:  119,985, #Generated:  209,985, Time: 13.855 s
+[Used: 161.78 MB, Free: 1284.22 MB, Alloc: 1446.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  100,000, #Frontier:  136,511, #Generated:  236,511, Time: 15.271 s
+[Used: 954.78 MB, Free: 491.22 MB, Alloc: 1446.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  110,000, #Frontier:  151,238, #Generated:  261,238, Time: 17.101 s
+[Used: 959.72 MB, Free: 486.28 MB, Alloc: 1446.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  120,000, #Frontier:  161,856, #Generated:  281,856, Time: 18.710 s
+[Used: 943.57 MB, Free: 502.43 MB, Alloc: 1446.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  130,000, #Frontier:  170,188, #Generated:  300,188, Time: 20.236 s
+[Used: 891.68 MB, Free: 904.32 MB, Alloc: 1796.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  140,000, #Frontier:  181,507, #Generated:  321,507, Time: 21.720 s
+[Used: 658.68 MB, Free: 1137.32 MB, Alloc: 1796.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  150,000, #Frontier:  193,070, #Generated:  343,070, Time: 23.165 s
+[Used: 439.72 MB, Free: 1356.28 MB, Alloc: 1796.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  160,000, #Frontier:  203,136, #Generated:  363,136, Time: 24.546 s
+[Used: 1182.72 MB, Free: 613.28 MB, Alloc: 1796.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  170,000, #Frontier:  219,357, #Generated:  389,357, Time: 26.158 s
+[Used: 1041.65 MB, Free: 754.35 MB, Alloc: 1796.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  180,000, #Frontier:  234,285, #Generated:  414,285, Time: 27.858 s
+[Used: 874.72 MB, Free: 1177.28 MB, Alloc: 2052.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  190,000, #Frontier:  246,059, #Generated:  436,059, Time: 29.363 s
+[Used: 534.72 MB, Free: 1517.28 MB, Alloc: 2052.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  200,000, #Frontier:  260,114, #Generated:  460,114, Time: 30.906 s
+[Used: 1350.72 MB, Free: 701.28 MB, Alloc: 2052.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  210,000, #Frontier:  274,926, #Generated:  484,926, Time: 32.866 s
+[Used: 1097.03 MB, Free: 954.97 MB, Alloc: 2052.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  220,000, #Frontier:  291,502, #Generated:  511,502, Time: 34.875 s
+[Used: 850.72 MB, Free: 1201.28 MB, Alloc: 2052.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  230,000, #Frontier:  307,314, #Generated:  537,314, Time: 36.754 s
+[Used: 602.72 MB, Free: 1695.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  240,000, #Frontier:  322,893, #Generated:  562,893, Time: 38.389 s
+[Used: 1471.72 MB, Free: 826.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  250,000, #Frontier:  339,008, #Generated:  589,008, Time: 40.013 s
+[Used: 1090.71 MB, Free: 1207.29 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  260,000, #Frontier:  354,198, #Generated:  614,198, Time: 41.622 s
+[Used: 699.72 MB, Free: 1598.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  270,000, #Frontier:  369,513, #Generated:  639,513, Time: 43.127 s
+[Used: 1562.72 MB, Free: 735.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  280,000, #Frontier:  382,116, #Generated:  662,116, Time: 44.666 s
+[Used: 1142.72 MB, Free: 1155.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  290,000, #Frontier:  396,881, #Generated:  686,881, Time: 46.355 s
+[Used: 754.72 MB, Free: 1543.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  300,000, #Frontier:  412,377, #Generated:  712,377, Time: 47.904 s
+[Used: 1608.72 MB, Free: 689.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  310,000, #Frontier:  428,556, #Generated:  738,556, Time: 49.672 s
+[Used: 1223.72 MB, Free: 1074.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  320,000, #Frontier:  437,452, #Generated:  757,452, Time: 51.768 s
+[Used: 773.72 MB, Free: 1524.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  330,000, #Frontier:  447,473, #Generated:  777,473, Time: 54.049 s
+[Used: 1583.72 MB, Free: 714.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  340,000, #Frontier:  459,139, #Generated:  799,139, Time: 56.127 s
+[Used: 1151.72 MB, Free: 1146.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  350,000, #Frontier:  474,372, #Generated:  824,372, Time: 58.183 s
+[Used: 763.72 MB, Free: 1534.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  360,000, #Frontier:  488,397, #Generated:  848,397, Time: 60.214 s
+[Used: 1616.72 MB, Free: 681.28 MB, Alloc: 2298.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  370,000, #Frontier:  503,044, #Generated:  873,044, Time: 62.622 s
+[Used: 1213.72 MB, Free: 1320.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  380,000, #Frontier:  519,801, #Generated:  899,801, Time: 65.424 s
+[Used: 680.72 MB, Free: 1853.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  390,000, #Frontier:  536,518, #Generated:  926,518, Time: 67.602 s
+[Used: 1576.72 MB, Free: 957.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  400,000, #Frontier:  551,517, #Generated:  951,517, Time: 70.141 s
+[Used: 1084.63 MB, Free: 1449.37 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  410,000, #Frontier:  567,094, #Generated:  977,094, Time: 72.704 s
+[Used: 816.72 MB, Free: 1717.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  420,000, #Frontier:  575,023, #Generated:  995,023, Time: 74.787 s
+[Used: 1620.72 MB, Free: 913.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  430,000, #Frontier:  584,667, #Generated: 1,014,667, Time: 77.933 s
+[Used: 1052.72 MB, Free: 1481.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  440,000, #Frontier:  601,111, #Generated: 1,041,111, Time: 80.590 s
+[Used: 1978.72 MB, Free: 555.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  450,000, #Frontier:  613,550, #Generated: 1,063,550, Time: 83.826 s
+[Used: 1464.72 MB, Free: 1069.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  460,000, #Frontier:  620,430, #Generated: 1,080,430, Time: 86.151 s
+[Used: 868.72 MB, Free: 1665.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  470,000, #Frontier:  628,307, #Generated: 1,098,307, Time: 88.247 s
+[Used: 1668.72 MB, Free: 865.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  480,000, #Frontier:  638,893, #Generated: 1,118,893, Time: 90.919 s
+[Used: 1123.72 MB, Free: 1410.28 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  490,000, #Frontier:  647,613, #Generated: 1,137,613, Time: 93.143 s
+[Used: 1184.73 MB, Free: 1349.27 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  500,000, #Frontier:  656,208, #Generated: 1,156,208, Time: 95.381 s
+[Used: 997.73 MB, Free: 1536.27 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  510,000, #Frontier:  672,316, #Generated: 1,182,316, Time: 98.144 s
+[Used: 1901.73 MB, Free: 632.27 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  520,000, #Frontier:  687,523, #Generated: 1,207,523, Time: 101.229 s
+[Used: 1719.73 MB, Free: 814.27 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  530,000, #Frontier:  698,399, #Generated: 1,228,399, Time: 103.831 s
+[Used: 1525.25 MB, Free: 1008.75 MB, Alloc: 2534.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  540,000, #Frontier:  706,260, #Generated: 1,246,260, Time: 106.218 s
+[Used: 1530.72 MB, Free: 1231.28 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  550,000, #Frontier:  715,102, #Generated: 1,265,102, Time: 108.523 s
+[Used: 1323.72 MB, Free: 1438.28 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  560,000, #Frontier:  727,870, #Generated: 1,287,870, Time: 111.297 s
+[Used: 1397.46 MB, Free: 1364.54 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  570,000, #Frontier:  741,736, #Generated: 1,311,736, Time: 114.506 s
+[Used: 1206.46 MB, Free: 1555.54 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  580,000, #Frontier:  753,256, #Generated: 1,333,256, Time: 117.729 s
+[Used: 1604.54 MB, Free: 1157.46 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  590,000, #Frontier:  763,755, #Generated: 1,353,755, Time: 120.900 s
+[Used: 1352.54 MB, Free: 1409.46 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  600,000, #Frontier:  774,533, #Generated: 1,374,533, Time: 123.251 s
+[Used: 1323.54 MB, Free: 1438.46 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  610,000, #Frontier:  787,127, #Generated: 1,397,127, Time: 125.715 s
+[Used: 1036.72 MB, Free: 1725.28 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  620,000, #Frontier:  798,321, #Generated: 1,418,321, Time: 127.558 s
+[Used: 1877.72 MB, Free: 884.28 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  630,000, #Frontier:  811,308, #Generated: 1,441,308, Time: 130.180 s
+[Used: 1848.72 MB, Free: 913.28 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  640,000, #Frontier:  826,191, #Generated: 1,466,191, Time: 133.652 s
+[Used: 1741.72 MB, Free: 1020.28 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  650,000, #Frontier:  838,661, #Generated: 1,488,661, Time: 137.018 s
+[Used: 1851.04 MB, Free: 910.96 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  660,000, #Frontier:  852,882, #Generated: 1,512,882, Time: 139.887 s
+[Used: 1797.04 MB, Free: 964.96 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  670,000, #Frontier:  865,990, #Generated: 1,535,990, Time: 142.065 s
+[Used: 1892.22 MB, Free: 869.78 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  680,000, #Frontier:  881,148, #Generated: 1,561,148, Time: 145.030 s
+[Used: 1963.70 MB, Free: 798.30 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  690,000, #Frontier:  894,948, #Generated: 1,584,948, Time: 147.682 s
+[Used: 1847.70 MB, Free: 914.30 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  700,000, #Frontier:  910,772, #Generated: 1,610,772, Time: 149.395 s
+[Used: 1935.85 MB, Free: 826.15 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  710,000, #Frontier:  926,296, #Generated: 1,636,296, Time: 151.126 s
+[Used: 1771.85 MB, Free: 990.15 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:  713,009, #Frontier:  931,334, #Generated: 1,644,343, Time: 151.556 s
+[Used: 2050.85 MB, Free: 711.15 MB, Alloc: 2762.00 MB, MaxAlloc: 8192.00 MB]
+Found solution of length 175.
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: Yes.
+[server][info] Actions used: 175.
+[server][info] Last action time: 151.606 seconds.

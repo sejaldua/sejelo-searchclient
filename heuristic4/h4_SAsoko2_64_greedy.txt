@@ -1,3 +1,18 @@
 [server][info] Running client on level: ../levels/SAsoko2_64.lvl
 SearchClient initializing. I am sending this using the error output stream.
 [client][message] This is a comment.
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3690)
+	at java.base/java.util.ArrayList.grow(ArrayList.java:237)
+	at java.base/java.util.ArrayList.grow(ArrayList.java:242)
+	at java.base/java.util.ArrayList.add(ArrayList.java:485)
+	at java.base/java.util.ArrayList.add(ArrayList.java:498)
+	at searchclient.Heuristic.createDistanceMap(Heuristic.java:69)
+	at searchclient.Heuristic.<init>(Heuristic.java:109)
+	at searchclient.HeuristicGreedy.<init>(Heuristic.java:518)
+	at searchclient.SearchClient.main(SearchClient.java:244)
+[client][info] Waiting for client process to terminate by itself.
+[client][info] Client terminated.
+[server][info] Level solved: No.
+[server][info] Actions used: 0.
+[server][info] Last action time: 0.000 seconds.

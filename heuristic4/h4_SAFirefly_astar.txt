@@ -2,15 +2,15 @@
 SearchClient initializing. I am sending this using the error output stream.
 [client][message] This is a comment.
 Starting best-first search using A* evaluation.
-#Explored:   10,000, #Frontier:    3,148, #Generated:   13,148, Time: 1.473 s
-[Used: 83.06 MB, Free: 76.94 MB, Alloc: 160.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   20,000, #Frontier:    4,810, #Generated:   24,810, Time: 2.135 s
-[Used: 53.73 MB, Free: 144.27 MB, Alloc: 198.00 MB, MaxAlloc: 8192.00 MB]
-#Explored:   24,222, #Frontier:    5,407, #Generated:   29,629, Time: 2.395 s
-[Used: 131.71 MB, Free: 66.29 MB, Alloc: 198.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   10,000, #Frontier:    3,148, #Generated:   13,148, Time: 1.190 s
+[Used: 20.11 MB, Free: 239.89 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   20,000, #Frontier:    4,810, #Generated:   24,810, Time: 1.757 s
+[Used: 180.72 MB, Free: 131.28 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:   24,222, #Frontier:    5,407, #Generated:   29,629, Time: 1.935 s
+[Used: 193.39 MB, Free: 118.61 MB, Alloc: 312.00 MB, MaxAlloc: 8192.00 MB]
 Found solution of length 62.
 [client][info] Waiting for client process to terminate by itself.
 [client][info] Client terminated.
 [server][info] Level solved: Yes.
 [server][info] Actions used: 62.
-[server][info] Last action time: 2.423 seconds.
+[server][info] Last action time: 1.959 seconds.

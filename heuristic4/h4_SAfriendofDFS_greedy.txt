@@ -2,11 +2,11 @@
 SearchClient initializing. I am sending this using the error output stream.
 [client][message] This is a comment.
 Starting best-first search using greedy evaluation.
-#Explored:       25, #Frontier:      105, #Generated:      130, Time: 0.117 s
-[Used: 4.57 MB, Free: 121.43 MB, Alloc: 126.00 MB, MaxAlloc: 8192.00 MB]
+#Explored:       25, #Frontier:      105, #Generated:      130, Time: 0.044 s
+[Used: 4.56 MB, Free: 255.44 MB, Alloc: 260.00 MB, MaxAlloc: 8192.00 MB]
 Found solution of length 8.
 [client][info] Waiting for client process to terminate by itself.
 [client][info] Client terminated.
 [server][info] Level solved: Yes.
 [server][info] Actions used: 8.
-[server][info] Last action time: 0.139 seconds.
+[server][info] Last action time: 0.060 seconds.
